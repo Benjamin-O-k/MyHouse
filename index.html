@@ -7,10 +7,19 @@
 </head>
 <body>
     <h1>MyHouses</h1>
-    <button id = "background">Change the background</button>
+    <button id = "background" type="button">Change the background</button>
     <p>Olaa</p>
     <div id = 'card'></div>
-    <div class="form-popup" id="popUpForm"></div>
+    <div class="form-popup" id="popUpForm">
+        <form class="form-container">
+                <label>Please Enter Your Details</label>
+                <input type="text" id="Name" placeholder="Enter Your Name">
+                <input type="number" id="number" placeholder="Your Phone Number">
+                <input type="email" id="email" placeholder="Enter Your Email">
+                <input type="text" id="comments" placeholder="What are your thoughts on this house">
+                <button type="submit" id="submitInfo">Submit</button>
+            </form>
+    </div>
     <script src ="index.js"></script>
 </body>
 </html>

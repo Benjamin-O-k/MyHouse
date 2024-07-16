@@ -23,19 +23,8 @@ function displayHouses(data){
 
         houseDiv.querySelector(".buy").addEventListener("click", (e) => {
             e.preventDefault();
-            let formDiv = document.getElementById("popUpForm")
+            let formDiv = document.querySelector(".form-container")
             formDiv.style.display = "block";
-            formDiv.innerHTML = `
-            <form class="form-container">
-                <label>Please Enter Your Details</label>
-                <input type="text" id="Name" placeholder="Enter Your Name">
-                <input type="number" id="number" placeholder="Your Phone Number">
-                <input type="email" id="email" placeholder="Enter Your Email">
-                <input type="text" id="comments" placeholder="What are your thoughts on this house">
-                <button type="submit" id="submitInfo">Submit</button>
-            </form>
-            `
-
             //Form submission
             formDiv.querySelector("form").addEventListener("submit", (e) => {
                 e.preventDefault();

@@ -1,7 +1,7 @@
 {
     "myHouses": [
         {
-                "id": "family",
+                "id": 1,
                 "Name": "Next door Neighbor",
                 "Image": "https://cdn.pixabay.com/photo/2017/06/12/15/10/street-2395821_1280.jpg",
                 "Comments": ["Replace", "this", "data"],
@@ -10,7 +10,7 @@
                 "Price": "120000"
             },
             {
-                "id": "family",
+                "id": 2,
                 "Name": "Single Parking",
                 "Image": "https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_1280.jpg",
                 "Comments": ["Replace", "this", "data"],
@@ -19,7 +19,7 @@
                 "Price":"400000"
             },
             {
-                "id": "family",
+                "id": 3,
                 "Name": "Get some Yard space.",
                 "Image": "https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_1280.jpg",
                 "Comments": ["Replace", "this", "data"],
@@ -28,7 +28,7 @@
                 "Price": "250000"
             },
             {
-                "id": "family",
+                "id": 4,
                 "Name": "Modern Family Design.",
                 "Image": "https://cdn.pixabay.com/photo/2017/07/09/03/19/home-2486092_1280.jpg",
                 "Comments": ["Replace", "this", "data"],
@@ -37,7 +37,7 @@
                 "Price":"350000"
             },
             {
-                "id": "family",
+                "id": 5,
                 "Name": "Life in Outside the city.",
                 "Image": "https://cdn.pixabay.com/photo/2017/11/16/19/29/cottage-2955582_1280.jpg",
                 "Comments": ["Replace", "this", "data"],
@@ -46,7 +46,7 @@
                 "Price": "250000"
             },
             {
-                "id": "family",
+                "id": 6,
                 "Name": "The Extended Family.",
                 "Image": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
                 "Comments": ["Replace", "this", "data"],
@@ -55,7 +55,7 @@
                 "Price": "800000"
             },
             {
-                "id": "family",
+                "id": 7,
                 "Name": "The Family Castle.",
                 "Image": "https://cdn.pixabay.com/photo/2017/09/17/18/15/lost-places-2759275_1280.jpg",
                 "Comments": ["Replace", "this", "data"],
@@ -64,7 +64,7 @@
                 "Price": "1000000"
             },
             {
-                "id": "family",
+                "id": 8,
                 "Name": "The Billion Dollar",
                 "Image": "https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_1280.jpg",
                 "Comments": ["Replace", "this", "data"],
@@ -73,7 +73,7 @@
                 "Price": "2000000"
             },
                 {
-                "id": "family",
+                "id": 9,
                 "Name": "The Glassy .",
                 "Image": "https://cdn.pixabay.com/photo/2022/10/13/08/01/crane-houses-7518551_1280.jpg",
                 "Comments": ["Replace", "this", "data"],
@@ -82,7 +82,7 @@
                 "Price": "1500000"
             },
             {
-                "id": "family",
+                "id": 10,
                 "Name": "The Million Dollar",
                 "Image": "https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg",
                 "Comments": ["Replace", "this", "data"],
@@ -91,7 +91,7 @@
                 "Price": "4000000"
             },
             {
-                "id": "friends",
+                "id": 11,
                 "Name": "Just for You",
                 "Image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "Comments": ["Replace", "this", "data"],
@@ -100,7 +100,7 @@
                 "Price" :"15000"
             },
             {
-                "id": "friends",
+                "id": 12,
                 "Name": "Well Organised",
                 "Image": "https://plus.unsplash.com/premium_photo-1661962950719-7dfa9d62a0b6?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "Comments": ["Replace", "this", "data"],
@@ -109,7 +109,7 @@
                 "Price":"10000"
             },
             {
-                "id": "friends",
+                "id": 13,
                 "Name": "Two In One",
                 "Image": "https://images.unsplash.com/photo-1653972233678-5d1c28d2a99f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "Comments": ["Replace", "this", "data"],
@@ -118,7 +118,7 @@
                 "Price":"80000"
             },
             {
-                "id": "friends",
+                "id": 14,
                 "Name": "2 Bedroom Home",
                 "Image": "https://plus.unsplash.com/premium_photo-1686167991758-e84276547710?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxaR1ZZOUV2cjVERXx8ZW58MHx8fHx8",
                 "Comments": ["Replace", "this", "data"],
@@ -127,7 +127,7 @@
                 "Price":"70000"
             },
             {
-                "id": "friends",
+                "id": 15,
                 "Name": "Bat Cave",
                 "Image": "https://images.unsplash.com/photo-1506180879175-6a5eb3ab9b18?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw4ODE1Nzc5fHxlbnwwfHx8fHw%3D",
                 "Comments": ["Replace", "this", "data"],
@@ -136,7 +136,7 @@
                 "Price":"100000"
             },
             {
-                "id": "friends",
+                "id": 16,
                 "Name": "Your Space",
                 "Image": "https://images.unsplash.com/photo-1510568192-5cd6e7a47edd?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTI5MjgxfHxlbnwwfHx8fHw%3D",
                 "Comments": ["Replace", "this", "data"],
@@ -145,7 +145,7 @@
                 "Price":"60000"
             },
             {
-                "id": "friends",
+                "id": 17,
                 "Name": "Classic Living",
                 "Image": "https://images.unsplash.com/photo-1698854536049-4ea3b8e4d035?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXx3OFdKYWEybU5FY3x8ZW58MHx8fHx8",
                 "Comments": ["Replace", "this", "data"],
@@ -154,7 +154,7 @@
                 "Price":"70000"
             },
             {
-                "id": "friends",
+                "id": 18,
                 "Name": "The Two Storey With Two Bedrooms",
                 "Image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5NjQxNjUwfHxlbnwwfHx8fHw%3D",
                 "Comments": ["Replace", "this", "data"],
