@@ -59,10 +59,11 @@ function displayHouses(data){
                 };
 
                 // Send PUT request to update comments in db.json
-                fetch(`http://localhost:3000/myHouses/${group.id}`, {
-                    method: 'PUT',
+                fetch(`http://localhost:3000/myHouses/${group.Comments}`, {
+                    method: 'PATCH',
                     headers: {
-                        'Content-Type': 'application/json'
+                        'Content-Type': 'application/json',
+                        'Accept' : 'application/json'
                     },
                     body: JSON.stringify({ Comments: formData.comments })
                 })
@@ -76,20 +77,14 @@ function displayHouses(data){
     })
 }
 
-// document.querySelector("#like").addEventListener("click", (e) => {
-//     e.preventDefault();
-//     let currentLikes = parseInt(e.target.textContent.split(": ")[1]);
-//     e.target.textContent = `Like: ${currentLikes + 1}`;
-// })
-
 document.getElementById("background").addEventListener('click' ,() => {
     let body = document.querySelector("body")
     body.style.background = "white";
 })
 
-document.querySelector("#search").addEventListener("click", (e) =>{
-    let val = e.target.value;
-    fetch(`http://localhost:3000/myHouses/${val}`)
+document.querySelector("#search").addEventListener("click", () =>{
+    let val = document.querySelector("#val").value;
+    fetch(`http://localhost:3000/myHouses`)
     .then(response => response.json())
-    .then(data => displayHouses(data.filter(item => item.id.includes(val))))
+    .then(data => displayHouses(data.filter(item => item.id === val)))
 })
