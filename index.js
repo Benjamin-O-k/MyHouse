@@ -13,7 +13,7 @@ function displayHouses(data){
         houseDiv.className = "left";
         houseDiv.innerHTML = `
         <img src = '${group.Image}'>
-        <h2>${group.Name}</h2>;
+        <h2>${group.Name}</h2>
         <p class = "descri">${group.Description}</p>
         <p>Price:$ ${group.Price}</p>
         <p id ="like">Like: ${group.Likes}</p>
@@ -49,7 +49,7 @@ function displayHouses(data){
             formMain.style.display = "block";
             formDiv.style.display = "block";
             //Form submission
-            formDiv.querySelector("form").addEventListener("submit", (e) => {
+            formDiv.addEventListener("submit", (e) => {
                 e.preventDefault();
                 let formData = {
                     name: e.target.Name.value,
@@ -58,7 +58,7 @@ function displayHouses(data){
                     comments: e.target.comments.value
                 };
 
-                // Send PUT request to update comments in db.json
+                // Send PATCH request to update comments in db.json
                 fetch(`http://localhost:3000/myHouses/${group.Comments}`, {
                     method: 'PATCH',
                     headers: {
@@ -86,5 +86,9 @@ document.querySelector("#search").addEventListener("click", () =>{
     let val = document.querySelector("#val").value;
     fetch(`http://localhost:3000/myHouses`)
     .then(response => response.json())
-    .then(data => displayHouses(data.filter(item => item.id === val)))
+    .then(data => {
+        let all = document.querySelector('#card');
+        all.innerHTML = "";
+        displayHouses(data.filter(item => item.id === val))
+    })
 })
