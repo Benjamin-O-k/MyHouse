@@ -6,7 +6,7 @@
       "Image": "https://cdn.pixabay.com/photo/2017/06/12/15/10/street-2395821_1280.jpg",
       "Comments": [],
       "Likes": 7,
-      "Description": "Get your new neighbors with this awesome looking simple house",
+      "Description": "Get your new neighbors with this awesome looking simple house.Located in Karen, Nairobi",
       "Price": "120000"
     },
     {
@@ -15,20 +15,16 @@
       "Image": "https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_1280.jpg",
       "Comments": [],
       "Likes": 42,
-      "Description": "This is not just a house.Its a home for you and your family.",
+      "Description": "This is not just a house.Its a home for you and your family.Located in Nyali,Mombasa",
       "Price": "400000"
     },
     {
       "id": "3",
       "Name": "Get some Yard space.",
       "Image": "https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_1280.jpg",
-      "Comments": [
-        "Replace",
-        "this",
-        "data"
-      ],
+      "Comments": [],
       "Likes": 0,
-      "Description": "Get a house with a yard for your children to play and make beautiful family memories together",
+      "Description": "Get a house with a yard for your children to play and make beautiful family memories together.Located in Karen,Nairobi",
       "Price": "250000"
     },
     {
@@ -37,7 +33,7 @@
       "Image": "https://cdn.pixabay.com/photo/2017/07/09/03/19/home-2486092_1280.jpg",
       "Comments": [],
       "Likes": 0,
-      "Description": "With its modern design you can build your family here and still yet continue with your life near the city",
+      "Description": "With its modern design you can build your family here and still yet continue with your life near the city.Located in Kiserian,Kajiado",
       "Price": "350000"
     },
     {
@@ -46,7 +42,7 @@
       "Image": "https://cdn.pixabay.com/photo/2017/11/16/19/29/cottage-2955582_1280.jpg",
       "Comments": [],
       "Likes": 1,
-      "Description": "This simple house with modern feature that make life worth living",
+      "Description": "This simple house with modern feature that make life worth living.Located in Juja,Kiambu",
       "Price": "250000"
     },
     {
@@ -55,7 +51,7 @@
       "Image": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
       "Comments": [],
       "Likes": 0,
-      "Description": "Living with your brothers mother father or uncles?With this house you have enough space for the whole of the family,nuclear and extended",
+      "Description": "Living with your brothers mother father or uncles?With this house you have enough space for the whole of the family,nuclear and extended.Located in Eldoret",
       "Price": "800000"
     },
     {
@@ -64,7 +60,7 @@
       "Image": "https://cdn.pixabay.com/photo/2017/09/17/18/15/lost-places-2759275_1280.jpg",
       "Comments": [],
       "Likes": 1,
-      "Description": "When you want to live off the grid but still want to live lavish,you sure will love the Family Castle",
+      "Description": "When you want to live off the grid but still want to live lavish,you sure will love the Family Castle.Located in Kisumu",
       "Price": "1000000"
     },
     {
@@ -73,7 +69,7 @@
       "Image": "https://cdn.pixabay.com/photo/2022/10/13/08/01/crane-houses-7518551_1280.jpg",
       "Comments": [],
       "Likes": 1,
-      "Description": "With walls of glass,you can view both in and out of your appartment",
+      "Description": "With walls of glass,you can view both in and out of your appartment.Located in Lavington,Nairobi",
       "Price": "1500000"
     },
     {
@@ -82,7 +78,7 @@
       "Image": "https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg",
       "Comments": [],
       "Likes": 1,
-      "Description": "With a helipad as roof you can park your chopper at your home.Get it today!",
+      "Description": "With a helipad as roof you can park your chopper at your home.Get it today!Located in Kwale",
       "Price": "4000000"
     },
     {
@@ -91,7 +87,7 @@
       "Image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "Comments": [],
       "Likes": 0,
-      "Description": "With a classy design, you can start life with a friend !",
+      "Description": "With a classy design, you can start life with a friend !Located in Nakuru",
       "Price": "15000"
     },
     {
@@ -100,7 +96,7 @@
       "Image": "https://images.unsplash.com/photo-1653972233678-5d1c28d2a99f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "Comments": [],
       "Likes": 0,
-      "Description": "Living in one roof but you are two? Don't worry about it.With this house you can have separate lives and still live in one house",
+      "Description": "Living in one roof but you are two? Don't worry about it.With this house you can have separate lives and still live in one house.Located in Thika",
       "Price": "80000"
     },
     {
@@ -109,7 +105,7 @@
       "Image": "https://plus.unsplash.com/premium_photo-1686167991758-e84276547710?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxaR1ZZOUV2cjVERXx8ZW58MHx8fHx8",
       "Comments": [],
       "Likes": 0,
-      "Description": "With a spacious living room, this house ensures that you have enough space for you and maybe your working area",
+      "Description": "With a spacious living room, this house ensures that you have enough space for you and maybe your working area.Located in Karen",
       "Price": "70000"
     },
     {
@@ -118,7 +114,7 @@
       "Image": "https://images.unsplash.com/photo-1506180879175-6a5eb3ab9b18?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw4ODE1Nzc5fHxlbnwwfHx8fHw%3D",
       "Comments": [],
       "Likes": 0,
-      "Description": "This space is comfortable for you to explore your manly fantasies.Build your own bat cave",
+      "Description": "This space is comfortable for you to explore your manly fantasies.Build your own bat cave.Located in Meru",
       "Price": "100000"
     },
     {
@@ -127,7 +123,7 @@
       "Image": "https://images.unsplash.com/photo-1510568192-5cd6e7a47edd?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTI5MjgxfHxlbnwwfHx8fHw%3D",
       "Comments": [],
       "Likes": 0,
-      "Description": "This is a empty 2 bedroom space where you can start a simple bachelor or bachelorette life!",
+      "Description": "This is a empty 2 bedroom space where you can start a simple bachelor or bachelorette life!Located in Embu",
       "Price": "60000"
     },
     {
@@ -136,7 +132,7 @@
       "Image": "https://images.unsplash.com/photo-1698854536049-4ea3b8e4d035?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXx3OFdKYWEybU5FY3x8ZW58MHx8fHx8",
       "Comments": [],
       "Likes": 0,
-      "Description": "This apartment has one of the best lighting and really awesome furniture",
+      "Description": "This apartment has one of the best lighting and really awesome furniture.Located in Mombasa",
       "Price": "70000"
     },
     {
@@ -145,7 +141,7 @@
       "Image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5NjQxNjUwfHxlbnwwfHx8fHw%3D",
       "Comments": [],
       "Likes": 0,
-      "Description": "Whether the first level or on the lower level, your comfort is still at its peak",
+      "Description": "Whether the first level or on the lower level, your comfort is still at its peak.Located in Karen",
       "Price": "65000"
     }
   ]

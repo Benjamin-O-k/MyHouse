@@ -21,9 +21,7 @@ function displayHouses(data){
         <button class = "buy" type = "button">Buy</button>
         `
         document.getElementById("card").appendChild(houseDiv);
-
         houseDiv.querySelector(".like").addEventListener("click", () => {
-
             group.Likes++;
             const likeItems = houseDiv.querySelector('#like');
             likeItems.textContent = `Like: ${group.Likes}`;
@@ -57,7 +55,6 @@ function displayHouses(data){
                     email: e.target.email.value,
                     comments: e.target.comments.value
                 };
-
                 // Send PATCH request to update comments in db.json
                 fetch(`http://localhost:3000/myHouses/${group.Comments}`, {
                     method: 'PATCH',
@@ -70,7 +67,6 @@ function displayHouses(data){
                 .then(response => response.json())
                 .then(data => console.log(data))
                 .catch(error => console.error(error));
-
                 alert("You have successfully purchased this house and submitted your details");
             });
         });
