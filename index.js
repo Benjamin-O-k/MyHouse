@@ -14,16 +14,39 @@ function displayHouses(data){
         houseDiv.innerHTML = `
         <img src = '${group.Image}'>
         <h2>${group.Name}</h2>;
-        <p class = "likes" id ="like">Like: ${group.Likes}</p>
         <p class = "descri">${group.Description}</p>
         <p>Price:$ ${group.Price}</p>
-        <button class = "buy">Buy</button>
+        <p id ="like">Like: ${group.Likes}</p>
+        <button class = "like" type = "button">Like</button>
+        <button class = "buy" type = "button">Buy</button>
         `
         document.getElementById("card").appendChild(houseDiv);
+
+        houseDiv.querySelector(".like").addEventListener("click", () => {
+
+            group.Likes++;
+            const likeItems = houseDiv.querySelector('#like');
+            likeItems.textContent = `Like: ${group.Likes}`;
+
+            // Send PUT request to update likes in db.json
+            fetch(`http://localhost:3000/myHouses/${group.id}`, {
+                method: 'PATCH',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept' : 'application/json'
+                },
+                body: JSON.stringify({ Likes: group.Likes })
+            })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
+        })
 
         houseDiv.querySelector(".buy").addEventListener("click", (e) => {
             e.preventDefault();
             let formDiv = document.querySelector(".form-container")
+            let formMain = document.querySelector(".form-popup")
+            formMain.style.display = "block";
             formDiv.style.display = "block";
             //Form submission
             formDiv.querySelector("form").addEventListener("submit", (e) => {
@@ -41,7 +64,7 @@ function displayHouses(data){
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ comments: formData.comments })
+                    body: JSON.stringify({ Comments: formData.comments })
                 })
                 .then(response => response.json())
                 .then(data => console.log(data))
@@ -53,15 +76,20 @@ function displayHouses(data){
     })
 }
 
-document.querySelector("#like").addEventListener("click", (e) => {
-    e.preventDefault();
-    let currentLikes = parseInt(e.target.textContent.split(": ")[1]);
-    e.target.textContent = `Like: ${currentLikes + 1}`;
+// document.querySelector("#like").addEventListener("click", (e) => {
+//     e.preventDefault();
+//     let currentLikes = parseInt(e.target.textContent.split(": ")[1]);
+//     e.target.textContent = `Like: ${currentLikes + 1}`;
+// })
+
+document.getElementById("background").addEventListener('click' ,() => {
+    let body = document.querySelector("body")
+    body.style.background = "white";
 })
 
-document.getElementById("background").addEventListener('click' ,(e) => {
-    e.preventDefault();
-    let body = document.querySelector("body")
-    body.style.backgroundColor = "white";
-    //formDiv.style.display = "none";
+document.querySelector("#search").addEventListener("click", (e) =>{
+    let val = e.target.value;
+    fetch(`http://localhost:3000/myHouses/${val}`)
+    .then(response => response.json())
+    .then(data => displayHouses(data.filter(item => item.id.includes(val))))
 })

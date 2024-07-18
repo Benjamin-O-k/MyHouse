@@ -1,166 +1,152 @@
 {
-    "myHouses": [
-        {
-                "id": 1,
-                "Name": "Next door Neighbor",
-                "Image": "https://cdn.pixabay.com/photo/2017/06/12/15/10/street-2395821_1280.jpg",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description":"Get your new neighbors with this awesome looking simple house",
-                "Price": "120000"
-            },
-            {
-                "id": 2,
-                "Name": "Single Parking",
-                "Image": "https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_1280.jpg",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description":"This is not just a house.Its a home for you and your family.",
-                "Price":"400000"
-            },
-            {
-                "id": 3,
-                "Name": "Get some Yard space.",
-                "Image": "https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_1280.jpg",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "Get a house with a yard for your childern to play and make beautiful family memories together",
-                "Price": "250000"
-            },
-            {
-                "id": 4,
-                "Name": "Modern Family Design.",
-                "Image": "https://cdn.pixabay.com/photo/2017/07/09/03/19/home-2486092_1280.jpg",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "With its modern design you can build your family here and still yet continue with your life near the city",
-                "Price":"350000"
-            },
-            {
-                "id": 5,
-                "Name": "Life in Outside the city.",
-                "Image": "https://cdn.pixabay.com/photo/2017/11/16/19/29/cottage-2955582_1280.jpg",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "This simple house with modern feature that make life worth living",
-                "Price": "250000"
-            },
-            {
-                "id": 6,
-                "Name": "The Extended Family.",
-                "Image": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "Living with your brothers mother father or uncles?With this house you have enough space for the whole of the family,nuclear and extendend",
-                "Price": "800000"
-            },
-            {
-                "id": 7,
-                "Name": "The Family Castle.",
-                "Image": "https://cdn.pixabay.com/photo/2017/09/17/18/15/lost-places-2759275_1280.jpg",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "When you want to live off the grid but still want to live lavish,you sure will love the Family Castle",
-                "Price": "1000000"
-            },
-            {
-                "id": 8,
-                "Name": "The Billion Dollar",
-                "Image": "https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_1280.jpg",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "Well,this will suit you sir!With the glass design and a pool for you and your family,this house will be worth your money!",
-                "Price": "2000000"
-            },
-                {
-                "id": 9,
-                "Name": "The Glassy .",
-                "Image": "https://cdn.pixabay.com/photo/2022/10/13/08/01/crane-houses-7518551_1280.jpg",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "With walls of glass,you can view both in and out of your appartment",
-                "Price": "1500000"
-            },
-            {
-                "id": 10,
-                "Name": "The Million Dollar",
-                "Image": "https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "With a helipad as roof you can park your heli at your home.Get it today!",
-                "Price": "4000000"
-            },
-            {
-                "id": 11,
-                "Name": "Just for You",
-                "Image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "With a classy design, you can start life with a friend !",
-                "Price" :"15000"
-            },
-            {
-                "id": 12,
-                "Name": "Well Organised",
-                "Image": "https://plus.unsplash.com/premium_photo-1661962950719-7dfa9d62a0b6?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "This house is well designed to meet your needs",
-                "Price":"10000"
-            },
-            {
-                "id": 13,
-                "Name": "Two In One",
-                "Image": "https://images.unsplash.com/photo-1653972233678-5d1c28d2a99f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "Living in one roof but you are two? Don't worry about it.With this house you can have separate lives and still live in one house",
-                "Price":"80000"
-            },
-            {
-                "id": 14,
-                "Name": "2 Bedroom Home",
-                "Image": "https://plus.unsplash.com/premium_photo-1686167991758-e84276547710?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxaR1ZZOUV2cjVERXx8ZW58MHx8fHx8",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "With a spacious living room, this house ensures that you have enough space for you and maybe your working area",
-                "Price":"70000"
-            },
-            {
-                "id": 15,
-                "Name": "Bat Cave",
-                "Image": "https://images.unsplash.com/photo-1506180879175-6a5eb3ab9b18?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw4ODE1Nzc5fHxlbnwwfHx8fHw%3D",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "This space is comfortable for you to explore your manly fantasies.Build your own bat cave",
-                "Price":"100000"
-            },
-            {
-                "id": 16,
-                "Name": "Your Space",
-                "Image": "https://images.unsplash.com/photo-1510568192-5cd6e7a47edd?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTI5MjgxfHxlbnwwfHx8fHw%3D",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "This is a empty 2 bedroom space where you can start a simple bachelor or bachelorette life!",
-                "Price":"60000"
-            },
-            {
-                "id": 17,
-                "Name": "Classic Living",
-                "Image": "https://images.unsplash.com/photo-1698854536049-4ea3b8e4d035?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXx3OFdKYWEybU5FY3x8ZW58MHx8fHx8",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description": "This apartment has one of the best lighting and really awesome furniture",
-                "Price":"70000"
-            },
-            {
-                "id": 18,
-                "Name": "The Two Storey With Two Bedrooms",
-                "Image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5NjQxNjUwfHxlbnwwfHx8fHw%3D",
-                "Comments": ["Replace", "this", "data"],
-                "Likes": 2341,
-                "Description":"Whether the first level or on the lower level, your comfort is still at its peak",
-                "Price":"65000"
-            }
-        ]
+  "myHouses": [
+    {
+      "id": "1",
+      "Name": "Next door Neighbor",
+      "Image": "https://cdn.pixabay.com/photo/2017/06/12/15/10/street-2395821_1280.jpg",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "Get your new neighbors with this awesome looking simple house",
+      "Price": "120000"
+    },
+    {
+      "id": "2",
+      "Name": "Single Parking",
+      "Image": "https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_1280.jpg",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "This is not just a house.Its a home for you and your family.",
+      "Price": "400000"
+    },
+    {
+      "id": "3",
+      "Name": "Get some Yard space.",
+      "Image": "https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_1280.jpg",
+      "Comments": [
+        "Replace",
+        "this",
+        "data"
+      ],
+      "Likes": 0,
+      "Description": "Get a house with a yard for your children to play and make beautiful family memories together",
+      "Price": "250000"
+    },
+    {
+      "id": "4",
+      "Name": "Modern Family Design.",
+      "Image": "https://cdn.pixabay.com/photo/2017/07/09/03/19/home-2486092_1280.jpg",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "With its modern design you can build your family here and still yet continue with your life near the city",
+      "Price": "350000"
+    },
+    {
+      "id": "5",
+      "Name": "Life in Outside the city.",
+      "Image": "https://cdn.pixabay.com/photo/2017/11/16/19/29/cottage-2955582_1280.jpg",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "This simple house with modern feature that make life worth living",
+      "Price": "250000"
+    },
+    {
+      "id": "6",
+      "Name": "The Extended Family.",
+      "Image": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "Living with your brothers mother father or uncles?With this house you have enough space for the whole of the family,nuclear and extended",
+      "Price": "800000"
+    },
+    {
+      "id": "7",
+      "Name": "The Family Castle.",
+      "Image": "https://cdn.pixabay.com/photo/2017/09/17/18/15/lost-places-2759275_1280.jpg",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "When you want to live off the grid but still want to live lavish,you sure will love the Family Castle",
+      "Price": "1000000"
+    },
+    {
+      "id": "9",
+      "Name": "The Glassy .",
+      "Image": "https://cdn.pixabay.com/photo/2022/10/13/08/01/crane-houses-7518551_1280.jpg",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "With walls of glass,you can view both in and out of your appartment",
+      "Price": "1500000"
+    },
+    {
+      "id": "10",
+      "Name": "The Million Dollar",
+      "Image": "https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "With a helipad as roof you can park your chopper at your home.Get it today!",
+      "Price": "4000000"
+    },
+    {
+      "id": "11",
+      "Name": "Just for You",
+      "Image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "With a classy design, you can start life with a friend !",
+      "Price": "15000"
+    },
+    {
+      "id": "13",
+      "Name": "Two In One",
+      "Image": "https://images.unsplash.com/photo-1653972233678-5d1c28d2a99f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "Living in one roof but you are two? Don't worry about it.With this house you can have separate lives and still live in one house",
+      "Price": "80000"
+    },
+    {
+      "id": "14",
+      "Name": "2 Bedroom Home",
+      "Image": "https://plus.unsplash.com/premium_photo-1686167991758-e84276547710?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxaR1ZZOUV2cjVERXx8ZW58MHx8fHx8",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "With a spacious living room, this house ensures that you have enough space for you and maybe your working area",
+      "Price": "70000"
+    },
+    {
+      "id": "15",
+      "Name": "Bat Cave",
+      "Image": "https://images.unsplash.com/photo-1506180879175-6a5eb3ab9b18?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw4ODE1Nzc5fHxlbnwwfHx8fHw%3D",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "This space is comfortable for you to explore your manly fantasies.Build your own bat cave",
+      "Price": "100000"
+    },
+    {
+      "id": "16",
+      "Name": "Your Space",
+      "Image": "https://images.unsplash.com/photo-1510568192-5cd6e7a47edd?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTI5MjgxfHxlbnwwfHx8fHw%3D",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "This is a empty 2 bedroom space where you can start a simple bachelor or bachelorette life!",
+      "Price": "60000"
+    },
+    {
+      "id": "17",
+      "Name": "Classic Living",
+      "Image": "https://images.unsplash.com/photo-1698854536049-4ea3b8e4d035?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXx3OFdKYWEybU5FY3x8ZW58MHx8fHx8",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "This apartment has one of the best lighting and really awesome furniture",
+      "Price": "70000"
+    },
+    {
+      "id": "18",
+      "Name": "The Two Storey With Two Bedrooms",
+      "Image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5NjQxNjUwfHxlbnwwfHx8fHw%3D",
+      "Comments": [],
+      "Likes": 0,
+      "Description": "Whether the first level or on the lower level, your comfort is still at its peak",
+      "Price": "65000"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 p{
-    color :burlywood;
+    color :goldenrod;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 20px;
     background: rgb(0,212,255);
-    background: linear-gradient(45deg, rgb(60, 147, 130) 0%, rgb(38, 96, 133) 100%);
+    background: linear-gradient(45deg, rgb(217, 95, 38) 0%, rgb(38, 96, 133) 100%);
 }
 .left{
     float:left; width:33%;
@@ -32,7 +32,7 @@ h1{
 
 .buy:hover{
     transform: scale(1.125);
-    border-color: rgba(255, 255, 255, 0.9);
+    border-color: rgba(41, 215, 227, 0.9);
     filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
     transition: all .3s ease;
 }
@@ -40,6 +40,7 @@ h1{
     display: none;
     position: fixed;
     bottom: 0;
+    border-radius: 15px;
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 9;
@@ -48,6 +49,8 @@ h1{
     display: none;
     max-width: 300px;
     padding: 10px;
+    border-radius: 15px;
+    background-color: #4e574b83;
 }
 .likes{
     margin-top: 6px;
@@ -57,10 +60,85 @@ h1{
 }
 .card{
     display: flex;
-    justify: space-between;
+    justify-content: space-between;
     align-items: stretch;
     width: 100%;
     gap: 24px;
     padding: 24px;
     flex-wrap: wrap;
+}
+.search{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.search input[type="button"]{
+    background-color: #4e574b83;
+    color: white;
+    padding: 6px;
+    border: none;
+    font-size: 15px;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: 2s;
+}
+input[type="number"]{
+    width: 100%;
+    padding: 12px 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    transition: 2s;
+    border-radius: 12px;
+}
+input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    transition: 2s;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+#search{
+    margin-right: 10px;
+    padding: 12px 20px;
+    color: cornflowerblue;
+}
+.like{
+    display: inline-block;
+    margin-right: 10px;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 12px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.like:hover{
+    transform: scale(1.125);
+    border-color: rgba(41, 215, 227, 0.9);
+    filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
+    transition: all .3s ease;
 }
